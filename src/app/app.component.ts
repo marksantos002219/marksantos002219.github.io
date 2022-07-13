@@ -7,6 +7,7 @@ import { Html5Qrcode } from 'html5-qrcode';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
+
   title = 'scanner';
 
   async ngOnInit(): Promise<void> {
